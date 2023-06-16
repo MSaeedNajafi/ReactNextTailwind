@@ -12,7 +12,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 bg-gray-800 text-white py-4">
+    <header className="sticky top-0 bg-gray-800 text-white py-4 z-10">
       <nav className="flex flex-col md:flex-row justify-between items-center py-4 px-8">
         <div className="flex items-center">
           <a href="/" className="text-white font-bold text-lg">

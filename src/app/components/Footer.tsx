@@ -1,3 +1,4 @@
+import "./styles.css";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-4">
@@ -6,33 +7,35 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-2">Column 1</h3>
             <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
+              <li className="icons">Item 1</li>
+              <li className="icons">Item 2</li>
+              <li className="icons">Item 3</li>
+              <li className="icons">Item 4</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Column 2</h3>
             <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
+              <li className="icons">Item 1</li>
+              <li className="icons">Item 2</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Column 3</h3>
             <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
+              <li className="icons">Item 1</li>
+              <li className="icons">Item 2</li>
+              <li className="icons">Item 3</li>
+              <li className="icons">Item 4</li>
+              <li className="icons">Item 5</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Column 4</h3>
             <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
+              <li className="icons">Item 1</li>
+              <li className="icons">Item 2</li>
+              <li className="icons">Item 3</li>
             </ul>
           </div>
         </div>

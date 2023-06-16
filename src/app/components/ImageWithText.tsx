@@ -19,7 +19,7 @@ export default function ImageWithText({
           <img src={src} alt="Image" className="w-full h-auto" />
         </div>
       ) : null}
-      <div className="md:w-1/2 bg-gray-100 py-8 px-6 md:px-12 bg-neutral-200 flex flex-col items-center">
+      <div className="md:w-1/2 bg-gray-100 py-8 px-6 md:px-12 bg-transparent flex flex-col items-center">
         <h2 className="text-2xl font-semibold mb-4">{title}</h2>
         <p className="mb-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor

@@ -1,14 +1,18 @@
 import Layout from "./components/Layout";
 import ImageWithText from "./components/ImageWithText";
+import ClientList from "./components/ClientList";
+import ServicesSection from "./components/services";
+import GetInTouch from "./components/GetInTouch";
 
 export default function Home() {
   return (
     <Layout>
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center  p-4">
+      {/* mx-auto vs max-w-full */}
+      <div className="container max-w-full">
+        <h1 className="text-4xl font-bold text-center p-4 pt-10">
           Welcome to My Website
         </h1>
-        <div>
+        <div className="p-10">
           <ImageWithText
             src={
               "https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
@@ -42,6 +46,9 @@ export default function Home() {
             imageOnLeft={false}
           />
         </div>
+        <ClientList />
+        <ServicesSection />
+        <GetInTouch />
       </div>
     </Layout>
   );
